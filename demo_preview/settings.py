@@ -76,11 +76,12 @@ WSGI_APPLICATION = 'demo_preview.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nishant$demo_preview',
-        'USER': 'nishant',
-        'PASSWORD': 'demo1234',
-        'HOST': 'nishant.mysql.pythonanywhere-services.com',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'demo_preview',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
