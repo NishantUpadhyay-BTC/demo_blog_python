@@ -13,5 +13,5 @@ python-jsonrpc-server==0.3.2
 python-language-server==0.31.4
 pytz==2019.3
 sqlparse==0.3.0
-ujson==1.35
+ujson==5.4.0
 zipp==0.6.0
